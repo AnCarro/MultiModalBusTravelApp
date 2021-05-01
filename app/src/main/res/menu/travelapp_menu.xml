@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/static_bus_info"
+        android:title="Static Bus Info"
+        />
+    <item
+        android:id="@+id/dynamic_bus_info"
+        android:title="Dynamic Bus Info"
+        />
+    <item
+        android:id="@+id/server_url"
+        android:title="Server" />
+
+</menu>

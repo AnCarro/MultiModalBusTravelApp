@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools2="http://schemas.android.com/bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical" >
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:title="Bus Dynamics: "
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="4dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Edit Bus Dynamics:"
+        android:textFontWeight="@integer/google_play_services_version"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="216dp" />
+    <!--
+    /****************************Occupancy*****************************/
+   -->
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/OccupancyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textSize="20sp"
+        android:text="Occupancy:" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:background="?android:attr/listDivider" />
+    <EditText
+        android:id="@+id/OccupancyInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="50"
+        android:inputType="number"
+        android:hint="Unknown"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/BikeOccupancyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textSize="20sp"
+        android:text="Bike Occupancy:" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:background="?android:attr/listDivider" />
+    <EditText
+        android:id="@+id/BikeOccupancyInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="50"
+        android:inputType="number"
+        android:hint="Unknown"/>
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/DyanmicChange"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="Save" />
+
+
+</LinearLayout>
